@@ -53,7 +53,7 @@ You should see output similar to the following:
 
 
 ### Non-Anaconda installation
-If you did not previously install Python using Anaconda, then you can following the installation instructions listed in the official TensorFlow documentation: https://www.tensorflow.org/install/
+If you did not previously install Python using Anaconda, then you can follow the installation instructions listed in the official TensorFlow documentation: https://www.tensorflow.org/install/
 
 
 ## Demos

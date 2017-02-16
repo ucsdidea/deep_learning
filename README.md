@@ -21,7 +21,7 @@ If you previously installed Python using Anaconda, you can install the required 
     3. install TensorFlow: ``pip install --upgrade tensorflow``
 
 ### Windows
-1. open the Anaconda Prompt
+1. open the Anaconda Command Prompt
 2. run the following commands in the terminal (type each line and hit enter):
     1. create a new Anaconda environment: ``conda create -n tensorflow python=3.5 numpy scipy matplotlib jupyter``
     2. activate the environment: ``activate tensorflow``
@@ -45,7 +45,8 @@ You should see output similar to the following:
 1.0.0
 ```
 
-For more info, see the official TensorFlow documentation: https://www.tensorflow.org/install/
+### Non-Anaconda installation
+If you did not previously install Python using Anaconda, then you can following the installation instructions listed in the official TensorFlow documentation: https://www.tensorflow.org/install/
 
 
 ## Demos

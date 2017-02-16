@@ -2,9 +2,41 @@
 Supplemental files for the Deep Learning workshop, presented by the IDEA Student Center of UC San Diego.
 
 ## Requirements
-- python 2.7 or 3.5 (3.5 required for Windows)
-- tensorflow 0.12
+- python 3.5
+- numpy
+- tensorflow 1.0
 - jupyter
+
+**NOTE:** Python 2.7 should work on macOS and Linux, but only Python 3.5 is supported for TensorFlow on Windows.
+
+
+## Installation
+If you previously installed Python using Anaconda, you can install the required packages using the following commands:
+
+### macOS
+1. open Terminal.app
+2. run the following commands in the terminal (type each line and hit enter):
+    1. create a new Anaconda environment: ``conda create -n tensorflow python=3.5 numpy scipy matplotlib jupyter``
+    2. activate the environment: ``source activate tensorflow``
+    3. install TensorFlow: ``pip install --upgrade tensorflow``
+
+### Windows
+1. open the Anaconda Prompt
+2. run the following commands in the terminal (type each line and hit enter):
+    1. create a new Anaconda environment: ``conda create -n tensorflow python=3.5 numpy scipy matplotlib jupyter``
+    2. activate the environment: ``activate tensorflow``
+    3. install TensorFlow: ``pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.0-cp35-cp35m-win_x86_64.whl``
+
+### Linux
+1. open a terminal program
+2. run the following commands in the terminal (type each line and hit enter):
+    1. create a new Anaconda environment: ``conda create -n tensorflow python=3.5 numpy scipy matplotlib jupyter``
+    2. activate the environment: ``source activate tensorflow``
+    3. install TensorFlow: ``pip install --upgrade tensorflow``
+
+
+For more info, see the official TensorFlow documentation: https://www.tensorflow.org/install/
+
 
 ## Demos
 Online demos:

@@ -35,6 +35,16 @@ If you previously installed Python using Anaconda, you can install the required 
     3. install TensorFlow: ``pip install --upgrade tensorflow``
 
 
+### Testing the installation
+To test the installation (for macOS, Windows or Linux), run the following commands in the same terminal from above:
+- start python and load TensorFlow: ``python -c "import tensorflow; print(tensorflow.__version__)"``
+
+You should see output similar to the following:
+```bash
+> python -c "import tensorflow; print(tensorflow.__version__)"
+1.0.0
+```
+
 For more info, see the official TensorFlow documentation: https://www.tensorflow.org/install/
 
 

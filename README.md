@@ -45,6 +45,9 @@ You should see output similar to the following:
 1.0.0
 ```
 
+**NOTE:** Make sure you have the Anaconda environment activated before running the above test command. If you don't, the command will fail as it will not "know" where to look for the TensorFlow install.
+
+
 ### Non-Anaconda installation
 If you did not previously install Python using Anaconda, then you can following the installation instructions listed in the official TensorFlow documentation: https://www.tensorflow.org/install/
 

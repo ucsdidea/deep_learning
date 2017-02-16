@@ -16,21 +16,21 @@ If you previously installed Python using Anaconda, you can install the required 
 ### macOS
 1. open Terminal.app
 2. run the following commands in the terminal (type each line and hit enter):
-    1. create a new Anaconda environment: ``conda create -n tensorflow python=3.5 numpy scipy matplotlib jupyter``
+    1. create a new Anaconda environment: ``conda create -n tensorflow python=3.5 numpy scipy matplotlib jupyter pip``
     2. activate the environment: ``source activate tensorflow``
     3. install TensorFlow: ``pip install --upgrade tensorflow``
 
 ### Windows
 1. open the Anaconda Command Prompt
 2. run the following commands in the terminal (type each line and hit enter):
-    1. create a new Anaconda environment: ``conda create -n tensorflow python=3.5 numpy scipy matplotlib jupyter``
+    1. create a new Anaconda environment: ``conda create -n tensorflow python=3.5 numpy scipy matplotlib jupyter pip``
     2. activate the environment: ``activate tensorflow``
     3. install TensorFlow: ``pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.0-cp35-cp35m-win_x86_64.whl``
 
 ### Linux
 1. open a terminal program
 2. run the following commands in the terminal (type each line and hit enter):
-    1. create a new Anaconda environment: ``conda create -n tensorflow python=3.5 numpy scipy matplotlib jupyter``
+    1. create a new Anaconda environment: ``conda create -n tensorflow python=3.5 numpy scipy matplotlib jupyter pip``
     2. activate the environment: ``source activate tensorflow``
     3. install TensorFlow: ``pip install --upgrade tensorflow``
 

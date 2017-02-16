@@ -27,6 +27,10 @@ If you previously installed Python using Anaconda, you can install the required 
     2. activate the environment: ``activate tensorflow``
     3. install TensorFlow: ``pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.0-cp35-cp35m-win_x86_64.whl``
 
+If you run into an error installing TensorFlow 1.0.0, try installing version 0.12.0 instead:
+- ``pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-0.12.0-cp35-cp35m-win_amd64.whl``
+
+
 ### Linux
 1. open a terminal program
 2. run the following commands in the terminal (type each line and hit enter):

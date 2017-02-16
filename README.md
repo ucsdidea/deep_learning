@@ -4,7 +4,7 @@ Supplemental files for the Deep Learning workshop, presented by the IDEA Student
 ## Requirements
 - python 3.5
 - numpy
-- tensorflow 1.0
+- tensorflow 1.0.0
 - jupyter
 
 **NOTE:** Python 2.7 should work on macOS and Linux, but only Python 3.5 is supported for TensorFlow on Windows.

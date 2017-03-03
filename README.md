@@ -69,3 +69,4 @@ Articles:
 - https://github.com/aymericdamien/TensorFlow-Examples
 - https://github.com/Hvass-Labs/TensorFlow-Tutorials
 - https://www.oreilly.com/learning/not-another-mnist-tutorial-with-tensorflow
+- Stanford course: https://web.stanford.edu/class/cs20si/syllabus.html

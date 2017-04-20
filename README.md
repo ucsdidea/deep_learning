@@ -5,6 +5,7 @@ Supplemental files for the Deep Learning workshop, presented by the IDEA Student
 We will be using the Keras package to write our Deep Learning models, with TensorFlow as the backend:
 - python 3.5
 - numpy
+- matplotlib
 - keras >= 2.0.0
 - tensorflow >= 1.0.0
 - jupyter
@@ -13,7 +14,7 @@ We will be using the Keras package to write our Deep Learning models, with Tenso
 
 
 ## Installation
-If you previously installed Python using Anaconda, you can install the required packages using the following commands:
+If you previously installed Python using Anaconda (https://www.continuum.io/downloads), you can install the required packages using the following commands:
 
 ### macOS
 1. open Terminal.app
@@ -55,6 +56,8 @@ You should see output similar to the following:
 ### Common issues
 - If TensorFlow fails to install, still try to install Keras (Keras defaults to TensorFlow for the backend, but can switch to Theano instead).
 - On Windows, TensorFlow is only compatible with Python 3.5+.
+- If you don't already have Python installed, we recommend installing it using the Anaconda distribution (https://www.continuum.io/downloads).
+- If you are already familiar with Python and installing packages with pip, you can skip installing Python using Anaconda and instead install the requirements using pip (e.g. ``pip install numpy matplotlib jupyter tensorflow keras``).
 
 
 ### Non-Anaconda installation

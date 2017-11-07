@@ -55,7 +55,7 @@ You should see output similar to the following:
 ### Common issues
 - If TensorFlow fails to install, still try to install Keras (Keras defaults to TensorFlow for the backend, but can switch to Theano instead).
 - On Windows, TensorFlow is only compatible with Python 3.5+.
-- If you don't already have Python installed, we recommend installing it using the Anaconda distribution (https://www.continuum.io/downloads).
+- If you don't already have Python installed, we recommend installing it using the Anaconda distribution (https://www.anaconda.com/download/).
 - If you are already familiar with Python and installing packages with pip, you can skip installing Python using Anaconda and instead install the requirements using pip (e.g. ``pip install numpy matplotlib jupyter tensorflow keras``).
 
 

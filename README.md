@@ -14,7 +14,7 @@ We will be using the Keras package to write our Deep Learning models, with Tenso
 
 
 ## Installation
-If you previously installed Python using Anaconda (https://www.continuum.io/downloads), you can install the required packages using the following commands:
+If you previously installed Python using Anaconda (https://www.anaconda.com/download/), you can install the required packages using the following commands:
 
 ### macOS
 1. open Terminal.app

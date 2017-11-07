@@ -28,8 +28,7 @@ If you previously installed Python using Anaconda (https://www.continuum.io/down
 2. run the following commands in the terminal (type each line and hit enter):
     1. create a new Anaconda environment: ``conda create -n deeplearning python=3.5 numpy scipy matplotlib jupyter pip``
     2. activate the environment: ``activate deeplearning``
-    3. install TensorFlow: ``pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.0.1-cp35-cp35m-win_amd64.whl``
-    4. install Keras: ``pip install --upgrade keras``
+    3. install TensorFlow and Keras: ``pip install --upgrade tensorflow keras``
 
 
 ### Linux
@@ -48,7 +47,7 @@ To test the installation (for macOS, Windows or Linux), run the following comman
 You should see output similar to the following:
 ```bash
 > python -c "import tensorflow; print(tensorflow.__version__)"
-1.0.1
+1.4.0
 ```
 
 **NOTE:** Make sure you have the Anaconda environment activated before running the above test command. If you don't, the command will fail as it will not "know" where to look for the TensorFlow install.

@@ -19,14 +19,14 @@ If you previously installed Python using Anaconda (https://www.anaconda.com/down
 ### macOS
 1. open Terminal.app
 2. run the following commands in the terminal (type each line and hit enter):
-    1. create a new Anaconda environment: ``conda create -n deeplearning python=3.5 numpy scipy matplotlib jupyter pandas scikit-learn pip``
+    1. create a new Anaconda environment: ``conda create -n deeplearning python=3.6 numpy scipy matplotlib jupyter pandas scikit-learn pip``
     2. activate the environment: ``source activate deeplearning``
     3. install TensorFlow and Keras: ``pip install --upgrade tensorflow keras``
 
 ### Windows
 1. open the Anaconda Command Prompt
 2. run the following commands in the terminal (type each line and hit enter):
-    1. create a new Anaconda environment: ``conda create -n deeplearning python=3.5 numpy scipy matplotlib jupyter pandas scikit-learn pip``
+    1. create a new Anaconda environment: ``conda create -n deeplearning python=3.6 numpy scipy matplotlib jupyter pandas scikit-learn pip``
     2. activate the environment: ``activate deeplearning``
     3. install TensorFlow and Keras: ``pip install --upgrade tensorflow keras``
 
@@ -34,7 +34,7 @@ If you previously installed Python using Anaconda (https://www.anaconda.com/down
 ### Linux
 1. open a terminal program
 2. run the following commands in the terminal (type each line and hit enter):
-    1. create a new Anaconda environment: ``conda create -n deeplearning python=3.5 numpy scipy matplotlib jupyter pandas scikit-learn pip``
+    1. create a new Anaconda environment: ``conda create -n deeplearning python=3.6 numpy scipy matplotlib jupyter pandas scikit-learn pip``
     2. activate the environment: ``source activate deeplearning``
     3. install TensorFlow and Keras: ``pip install --upgrade tensorflow keras``
 
